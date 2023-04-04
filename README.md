@@ -24,7 +24,7 @@ This file contains custom settings that turns on syntax, line numbers, autoinden
 
 ## linux.sh
 
-This file check the operating system type, creates a directory named "TRASH", and makes a file named hidden file named '.vimrc' in the home directory. It then renames the '.vimrc' file to '.bup_vimrc' while outputting a confirmation message into linuxsetup.log. FInnaly, it overwrites the output of 'etc/vimrc' into the '.vimrc' file and adds the line "source ~/.dotfiles/etc/bashrc_custom" to the bottom of the '.bashrc file.
+This file check the operating system type, creates a directory named "TRASH", and makes a file named hidden file named '.vimrc' in the home directory. It then renames the '.vimrc' file to '.bup_vimrc' while outputting a confirmation message into linuxsetup.log. Finnaly, it overwrites the output of 'etc/vimrc' into the '.vimrc' file and adds the line "source ~/.dotfiles/etc/bashrc_custom" to the bottom of the '.bashrc file.
 
 ## cleanup.sh
 
